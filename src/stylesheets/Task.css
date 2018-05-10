@@ -1,0 +1,7 @@
+li {
+  padding-bottom: 2%;
+}
+
+li:hover {
+  background-color: aqua;
+}

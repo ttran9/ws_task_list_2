@@ -1,0 +1,23 @@
+/**
+  * This file holds common styles for list items in this application.
+ */
+
+ul li.complete{
+  list-style-image: url("../images/Completed.svg");
+  text-decoration: line-through;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+ul li.locked{
+  list-style-image: url("../images/Locked.svg");
+  color: #C0C0C0;
+  padding-left: 1%;
+}
+
+ul li.incomplete{
+  list-style-image: url("../images/Incomplete.svg");
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
