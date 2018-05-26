@@ -1,0 +1,32 @@
+div.TaskListLabel {
+  padding-top: 5%;
+  padding-left: 10%;
+  width: 100%;
+  float: left;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
+/*
+ * the below is for debugging to see where the containers appear on the page.
+ */
+/*
+div.TaskListLabel div.TasksInformation {
+  border: 1px solid red;
+  width: 50%;
+  float: left;
+}
+
+div.TaskListLabel div.DisplayGroups {
+  border: 1px solid blue;
+  width: 40%;
+  float: left;
+}
+
+div.TaskListLabel div.TaskList {
+  float: left;
+  border: 1px solid darkmagenta;
+}
+*/
