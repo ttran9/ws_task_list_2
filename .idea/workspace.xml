@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65bdb2a-a066-46c9-9495-f33e047ed0b8" name="Default" comment="" />
+    <list default="true" id="b65bdb2a-a066-46c9-9495-f33e047ed0b8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskGroupList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskGroupListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThingsToDo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/ListItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/Task.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/Task.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,59 +27,68 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TaskGroupContainer.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-6681">
+                  <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="TaskGroup.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TaskGroup.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+                  <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TaskList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/TaskList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ThingsToDo.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js">
+          <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Task.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+                <state relative-caret-position="405">
+                  <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskGroupList.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TaskGroupListItem.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/TaskGroupListItem.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="354">
-                    <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-                  </first_editor>
-                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -77,20 +97,29 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ListItem.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/ListItem.css">
+          <file leaf-file-name="Task.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/stylesheets/Task.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                <state>
+                  <caret column="4" selection-start-column="4" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskGroup.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroup.css">
+          <file leaf-file-name="TaskList.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskList.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/stylesheets/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -104,15 +133,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskGroupList.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -120,30 +140,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alert</find>
-      <find>associative</find>
-      <find>TaskContainer</find>
-      <find>setState</find>
-      <find>clickHandler</find>
-      <find>se</find>
-      <find>Date.now</find>
-      <find>toggleCompletedTask</find>
-      <find>Date.</find>
       <find>Date.now()</find>
       <find>date.now</find>
-      <find>toggleTaskCompletionHandler</find>
       <find>checkIfTasksAreUnlocked</find>
-      <find>toggleTaskCompletion</find>
-      <find>updateTaskCompletion</find>
       <find>toggleListItemClass</find>
-      <find>span</find>
       <find>TaskGroupList.css</find>
       <find>locked</find>
       <find>getElement</find>
@@ -154,7 +161,26 @@
       <find>&quot;locked&quot;</find>
       <find>hr</find>
       <find>taskGroupSeparator</find>
+      <find />
+      <find>setState</find>
+      <find>updateTaskCompletionupdateTaskCompletion</find>
+      <find>key</find>
+      <find />
+      <find>toggleInCompleteTask</find>
+      <find>updateTaskCompletion</find>
+      <find>span</find>
+      <find>toggleTaskCompletionHandler</find>
+      <find>completedTasksInGroup</find>
+      <find>listOfTasksFromGroup</find>
+      <find>TaskGroupList</find>
+      <find>completed!</find>
+      <find>toggleCompletedTask</find>
+      <find>console.log</find>
+      <find>toggleTaskCompletion</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,24 +198,26 @@
         <option value="$PROJECT_DIR$/src/Task.css" />
         <option value="$PROJECT_DIR$/src/TaskGroup.css" />
         <option value="$PROJECT_DIR$/src/components/TaskContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/ThingsToDo.js" />
-        <option value="$PROJECT_DIR$/src/components/App.js" />
-        <option value="$PROJECT_DIR$/src/stylesheets/Task.css" />
         <option value="$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" />
         <option value="$PROJECT_DIR$/src/stylesheets/index.css" />
-        <option value="$PROJECT_DIR$/src/stylesheets/TaskGroup.css" />
-        <option value="$PROJECT_DIR$/src/components/TaskGroup.js" />
-        <option value="$PROJECT_DIR$/src/stylesheets/App.css" />
-        <option value="$PROJECT_DIR$/src/components/TaskGroupContainer.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/Task.js" />
         <option value="$PROJECT_DIR$/src/images/Completed.svg" />
         <option value="$PROJECT_DIR$/src/images/Incomplete.svg" />
         <option value="$PROJECT_DIR$/src/images/Locked.svg" />
         <option value="$PROJECT_DIR$/src/stylesheets/ListItem.css" />
-        <option value="$PROJECT_DIR$/src/components/TaskGroupList.js" />
         <option value="$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskGroupList.js" />
         <option value="$PROJECT_DIR$/src/components/TaskGroupListItem.js" />
+        <option value="$PROJECT_DIR$/src/components/ThingsToDo.js" />
+        <option value="$PROJECT_DIR$/src/stylesheets/Task.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskGroupContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/TaskList.js" />
+        <option value="$PROJECT_DIR$/src/stylesheets/TaskList.css" />
+        <option value="$PROJECT_DIR$/src/stylesheets/App.css" />
+        <option value="$PROJECT_DIR$/src/components/TaskGroup.js" />
+        <option value="$PROJECT_DIR$/src/stylesheets/TaskGroup.css" />
+        <option value="$PROJECT_DIR$/src/components/App.js" />
       </list>
     </option>
   </component>
@@ -209,8 +237,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="1152" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="width" value="1019" />
     <option name="height" value="1112" />
   </component>
   <component name="ProjectView">
@@ -222,29 +251,28 @@
         <subPane>
           <expand>
             <path>
-              <item name="task_list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ws_task_list_prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws_task_list_prototype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="task_list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ws_task_list_prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws_task_list_prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ws_task_list_prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws_task_list_prototype" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="task_list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ws_task_list_prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws_task_list_prototype" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="task_list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task_list" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ws_task_list_prototype" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ws_task_list_prototype" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -257,13 +285,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_tutorials/events_in_react.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RecentsManager">
@@ -314,22 +343,26 @@
       <workItem from="1525740780111" duration="13518000" />
       <workItem from="1525803545671" duration="26353000" />
       <workItem from="1525908339216" duration="6542000" />
+      <workItem from="1526954495451" duration="15709000" />
+      <workItem from="1526983799895" duration="646000" />
+      <workItem from="1527036418891" duration="2702000" />
+      <workItem from="1527214904576" duration="13100000" />
+      <workItem from="1527307571342" duration="7358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133326000" />
+    <option name="totallyTimeSpent" value="172841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1152" height="1112" extended-state="0" />
+    <frame x="4" y="0" width="1019" height="1112" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20466787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2324159" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -342,24 +375,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20466787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2324159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937685" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -375,14 +409,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/TaskGroupContainer.js</url>
-          <line>325</line>
+          <line>343</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" />
     <entry file="file://$PROJECT_DIR$/src/stylesheets/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -397,26 +432,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js" />
     <entry file="file://$PROJECT_DIR$/src/components/TaskGroup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -441,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" />
     <entry file="file://$PROJECT_DIR$/src/stylesheets/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -455,13 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" />
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -469,26 +474,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js" />
     <entry file="file://$PROJECT_DIR$/src/components/TaskGroup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -513,13 +500,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" />
     <entry file="file://$PROJECT_DIR$/src/stylesheets/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -527,13 +508,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -571,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskList.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="2649" column="8" selection-start-line="2649" selection-start-column="8" selection-end-line="2649" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -593,35 +560,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="1365" column="2" selection-start-line="1365" selection-start-column="2" selection-end-line="1365" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js" />
     <entry file="file://$PROJECT_DIR$/src/components/TaskContainer.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="354">
+            <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="111" lean-forward="true" selection-start-line="18" selection-start-column="111" selection-end-line="18" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="902" column="8" selection-start-line="902" selection-start-column="8" selection-end-line="902" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" />
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupListItem.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js" />
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/ListItem.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/Task.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/ThingsToDo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -632,39 +614,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Task.js">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskList.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="262" column="9" lean-forward="true" selection-start-line="262" selection-start-column="9" selection-end-line="262" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/Locked.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/Incomplete.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/Completed.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6681">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,76 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/ListItem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsToDo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="111" lean-forward="true" selection-start-line="18" selection-start-column="111" selection-end-line="18" selection-end-column="111" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="354">
-            <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskGroupList.css">
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/Task.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupListItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
