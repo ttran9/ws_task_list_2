@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65bdb2a-a066-46c9-9495-f33e047ed0b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskGroupList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskGroupListItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThingsToDo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/ListItem.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/Task.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/Task.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/TaskGroupList.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/ThingsToDo.css" beforeDir="false" />
-    </list>
+    <list default="true" id="b65bdb2a-a066-46c9-9495-f33e047ed0b8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,11 +37,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskGroupContainer.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TaskGroupContainer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-6681">
-                  <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+                <state relative-caret-position="68">
+                  <caret line="404" column="45" selection-start-line="404" selection-start-column="45" selection-end-line="404" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -69,7 +58,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskList.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="TaskList.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/TaskList.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
@@ -97,20 +86,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Task.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Task.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/Task.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="4" selection-start-column="4" selection-end-column="4" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TaskList.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="TaskList.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskList.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -237,8 +226,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="770" />
     <option name="width" value="1019" />
     <option name="height" value="1112" />
   </component>
@@ -347,15 +336,15 @@
       <workItem from="1526983799895" duration="646000" />
       <workItem from="1527036418891" duration="2702000" />
       <workItem from="1527214904576" duration="13100000" />
-      <workItem from="1527307571342" duration="7358000" />
+      <workItem from="1527307571342" duration="7705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172841000" />
+    <option name="totallyTimeSpent" value="173188000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1019" height="1112" extended-state="0" />
+    <frame x="770" y="0" width="1019" height="1112" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2324159" />
@@ -621,23 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -662,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6681">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -679,10 +641,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskGroupContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="404" column="45" selection-start-line="404" selection-start-column="45" selection-end-line="404" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TaskList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheets/Task.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stylesheets/TaskList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
