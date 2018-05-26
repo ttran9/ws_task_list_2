@@ -38,6 +38,10 @@ attribute and then to modify the className attribute based on the locked status 
 - At the time I am writing this, I am not sure how to fully certain code/functions in the best way. If I were writing
 for/with a team I would ask for a code review as I have doubts on how to organize the logic and functions.
 
+- A few TODO items:
+    - I am currently not sure how to modify the styling to make this cater to mobile devices (very small screens), I 
+    would need to modify the css files further (specifically TaskList.css).
+
 ## Running this application:
     - Make sure you have NodeJS installed, installation can be found [here](https://nodejs.org/en/download/)
 	- To run this application cd into the root directory and just run it with "npm start", some introductory information
