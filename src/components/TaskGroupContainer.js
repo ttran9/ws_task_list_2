@@ -1,8 +1,11 @@
 import React, {Component} from "react";
 import TaskGroup from "./TaskGroup";
+import TaskList from "./TaskList";
 
 /**
  * This component holds the logic used to build the TaskGroup component.
+ * This component is in charge of displaying all the groups or
+ * individual tasks given a certain group.
  */
 class TaskGroupContainer extends Component {
   constructor(props) {
@@ -19,9 +22,20 @@ class TaskGroupContainer extends Component {
       completedTasksInGroup: [],
       // keeps track of what which group a task maps to based on its ID (not based on group name).
       indexOfGroupFromTaskId: {},
+      // by default, this value controls what type of group is being displayed (items or group names).
+      groupType: 0,
+      // holds the group names.
+      groupNames: [],
+      // the group of tasks to be displayed.
+      listOfTasksFromGroup: [],
+      // this keeps track of which sublist is being displayed
+      indexOfCurrentGroup: 0
     };
 
     this.toggleTaskCompletion = this.toggleTaskCompletion.bind(this);
+    this.getTaskListFromIndex = this.getTaskListFromIndex.bind(this);
+    this.showTaskGroups = this.showTaskGroups.bind(this);
+    this.parseTaskGroups(this.props.tasks);
   }
 
   /**
@@ -60,13 +74,13 @@ class TaskGroupContainer extends Component {
       return null;
     });
 
-    this.setState = ({
-      taskGroups: taskGroups,
-      indexOfIndividualTaskWithinGroup: indexOfIndividualTaskWithinGroup,
-      indexOfGroupFromGroupName: indexOfGroupFromGroupName,
-      completedTasksInGroup: completedTasksInGroup,
-      indexOfGroupFromTaskId: indexOfGroupFromTaskId,
-    });
+    // this.setState = ({
+    //   taskGroups: taskGroups,
+    //   indexOfIndividualTaskWithinGroup: indexOfIndividualTaskWithinGroup,
+    //   indexOfGroupFromGroupName: indexOfGroupFromGroupName,
+    //   completedTasksInGroup: completedTasksInGroup,
+    //   indexOfGroupFromTaskId: indexOfGroupFromTaskId,
+    // });
   }
 
   /**
@@ -125,6 +139,8 @@ class TaskGroupContainer extends Component {
     let newTaskGroup = [];
     newTaskGroup.push(task);
     taskGroups.push(newTaskGroup);
+    let groupNames = this.state.groupNames;
+    groupNames.push(taskGroupName);
   }
 
   /**
@@ -199,9 +215,10 @@ class TaskGroupContainer extends Component {
      * or unlocked.
      */
     this.updateTaskStatus();
-    this.setState = ({
+    this.setState({
       completedTasksInGroup: completedTasksInGroup
     });
+    console.log(this.state.completedTasksInGroup);
     this.updateCompletedTasksForGroup(completedTasksInGroup, indexOfGroupFromTask);
   }
 
@@ -213,7 +230,7 @@ class TaskGroupContainer extends Component {
    */
   updateCompletedTasksForGroup(completedTasksInGroup, indexOfGroupFromTask) {
     // this is not 0'th index based but 1'th index, so adding 1 is necessary here.
-    let completedTaskSpanId = "completedTasks " + (indexOfGroupFromTask + 1);
+    let completedTaskSpanId = "completedTasks " + indexOfGroupFromTask;
     let spanWithCompletedTask = document.getElementById(completedTaskSpanId);
     // grab the span that holds the number of completed tasks and update it.
     if (spanWithCompletedTask !== null) {
@@ -251,19 +268,20 @@ class TaskGroupContainer extends Component {
   toggleTaskStatus(task) {
     let taskId = "task " + task.id;
     let taskListItem = document.getElementById(taskId);
-    if(taskListItem !== undefined) {
-      if(task["isLocked"]) {
-        taskListItem.className = "locked";
-      } else {
-        if(task.completedAt === null) {
-          taskListItem.className = "incomplete";
-        }
-        else {
-          taskListItem.className = "complete";
+    if(taskListItem !== null) {
+      if(taskListItem !== undefined) {
+        if(task["isLocked"]) {
+          taskListItem.className = "locked";
+        } else {
+          if(task.completedAt === null) {
+            taskListItem.className = "incomplete";
+          }
+          else {
+            taskListItem.className = "complete";
+          }
         }
       }
     }
-
   }
 
   /**
@@ -355,28 +373,59 @@ class TaskGroupContainer extends Component {
     return taskIsLocked;
   }
 
+  /**
+   * takes in an index and retrieves the group of tasks with this index.
+   * to toggle the screen the displayType is also set to a different value.
+   */
+  getTaskListFromIndex(index) {
+    let listToDisplay = this.state.taskGroups[index];
+    this.setState({
+      listOfTasksFromGroup: listToDisplay,
+      groupType: 1,
+      indexOfCurrentGroup: index
+    });
+  }
+
+  /**
+   * this toggles the display type back to show only the groups and not the tasks within a group.
+   */
+  showTaskGroups() {
+    this.setState({
+      // return empty the list of tasks.
+      listOfTasksFromGroup: [],
+      groupType: 0
+    });
+  }
+
   render() {
-    this.parseTaskGroups(this.props.tasks);
-    return (
-        <div className="TaskContainer">
-          {this.state.taskGroups.map((taskGroup, index) => {
-            let groupNumber = index + 1;
-            let listId = "TaskGroupUL" + groupNumber;
-            let taskGroupId = "TaskGroupId" + groupNumber;
-            return (
-                <TaskGroup
-                  key={index}
-                  groupNumber={groupNumber}
-                  listId={listId}
-                  taskGroupId={taskGroupId}
-                  taskGroup={taskGroup}
-                  toggleTaskCompletionHandler={this.toggleTaskCompletion}
-                  completedTasks={this.state.completedTasksInGroup[index]}
-                />
-            );
-          })}
+    let groupType = this.state.groupType;
+    if(groupType === 0) {
+      return (
+        <TaskGroup
+            groupNames={this.state.groupNames}
+            getTaskListFromIndex={this.getTaskListFromIndex}/>
+      );
+    }
+    else if(groupType === 1) {
+      let completedTaskSpanId = "completedTasks " + this.props.indexOfCurrentGroup;
+      return (
+        <TaskList
+          completedTaskSpanId={completedTaskSpanId}
+          toggleTaskStatus={this.toggleTaskStatus}
+          showTaskGroups={this.showTaskGroups}
+          toggleTaskCompletion={this.toggleTaskCompletion}
+          indexOfCurrentGroup={this.state.indexOfCurrentGroup}
+          completedTasksInGroup={this.state.completedTasksInGroup}
+          listOfTasksFromGroup={this.state.listOfTasksFromGroup}/>
+      );
+    }
+    else {
+      return (
+        <div className="error">
+          nothing to be returned!!
         </div>
-    );
+      );
+    }
   }
 }
 
