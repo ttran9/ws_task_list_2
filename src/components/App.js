@@ -87,6 +87,10 @@ class App extends Component {
     this.setPayload(payload);
   }
 
+  /**
+   * @param payload The sample tasks with dependencies.
+   * this function can be used to modify the tasks shown to the user.
+   */
   setPayload(payload) {
     this.setState({
       payload: payload
